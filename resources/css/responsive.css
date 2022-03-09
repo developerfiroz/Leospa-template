@@ -1,0 +1,192 @@
+
+@media only screen and (max-width:1200px){
+  
+}
+
+@media only screen and (max-width:992px){
+  .row{
+      padding: 0 1.5rem;
+  }
+  .banner-items .banner-content h1 {
+    color: #1e2528;
+    font-size: 5rem;
+    line-height: 6.5rem;
+    margin-bottom: 1.5rem;
+}
+    .btn{
+	padding: 1.3em 1.5rem;
+    }
+    .about-content p{
+        max-width: 77rem;
+    }
+    .testimonial .single-tst p{
+        margin: 0 auto;
+        max-width: 77rem;
+        margin-bottom: 3rem;
+    }
+    .appointment .appointment-wrap figure{
+        flex-basis: 0%;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .appointment .appointment-wrap .appointment-form{
+        flex-basis: 100%;
+        padding-left: 0rem;
+    }
+   
+    .appointment .appointment-wrap .appointment-form form {
+        margin: 0 auto;
+        max-width: 65rem;
+    }
+}
+@media only screen and (max-width:768px){
+    .row{
+        padding: 0 3rem;
+    }
+    .banner{
+        padding: 5% 1%;
+        padding-bottom: 8rem;
+    }
+    .banner-items .banner-content{
+        position: relative;
+        width: 75%;
+        z-index: 1;
+    }
+    .banner-items .banner-content span{
+        margin-bottom: 0rem;
+        font-weight: 300;
+    }
+    .banner-items .banner-content h1{
+        margin-top: 1.5rem;
+        font-size: 4.9rem;
+    }
+    .two-flower .flower-1{
+        top: 2rem;
+    }
+    .two-flower .flower-2{
+        display: none;
+    }
+    .about-content .tagline {
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 3.5rem;
+    }
+    .about-content p{
+        padding: 1rem;
+    }
+   .universal-div p {
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+    .testimonial{
+        padding-bottom: 4rem;
+    }
+    .team .single-memb .memb-details{
+	max-width: 100%;
+	padding: 3rem 1rem;
+    }
+    .contact .contact-fild{
+    max-width: 100%;
+    }
+    .contact-fild .contact-info-left{
+        padding: 0;
+    }
+    .contact-fild .contact-info-right{
+        padding-left: 2rem;
+    }
+
+}
+@media only screen and (max-width:480px){
+    .row{
+        padding: 0 1rem;
+    }
+    .header-items .nav-items,
+    .banner-items .banner-img
+    {
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+        padding-top: .5rem;
+    }
+    .sticky .mobile-menu span ,
+    .overlay .closebtn{
+        padding-top: 0;
+        top: 1rem;
+    }
+   
+    .sticky .logo a{
+        width: 6rem;
+    }
+    .header-items .logo a{
+        padding: 0;
+        padding-left: .5rem;
+    }
+    .banner{
+        padding-bottom: 0;
+        margin-bottom: 6rem;
+        /* z-index: -2; */
+    }
+    .banner-items .banner-content{
+        width: 100%;
+        z-index: -1;
+    }
+    .banner-items .banner-content span{
+        padding-top: 2.5rem;
+    }
+    .universal-div h2 {
+        font-size: 3.3rem;
+        line-height: 4rem;
+    }
+    .service-section .service-items{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .service-items .single-service{
+        display: none;
+    }
+    .service-items .single-service:first-child{
+        display: block;
+        margin: 3rem 0;
+    }
+    .procedures .article-items {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .procedures .post img {
+        width: 100%;
+    }
+    .team .team-members {
+        flex-direction: column;
+    }
+    .single-memb{
+        margin-bottom: 14rem;
+    }
+    .single-memb img {
+        width: 100%;
+    }
+    .appointment {
+        padding: 2rem;
+    }
+    input:focus,
+    textarea:focus{
+        border: .2rem solid #0060DF !important;
+    }
+    .contact .contact-fild {
+        flex-direction: column;
+    }
+    .contact-fild .contact-info-left,
+    .contact-fild .contact-info-right {
+        max-width: 100%;
+    }
+    .contact-fild .contact-info-right{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .footer-content .foo-nav {
+        display: none;
+    }
+    .footer-content .logo {
+        margin-bottom: 3rem;
+    }
+}

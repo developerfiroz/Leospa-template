@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loespa_Template</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./resources/img/butterfly.png" type="image/x-icon">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Rufina:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- vendors css -->
+    <link rel="stylesheet" href="./vendors/css/normalize.css">
+    <link rel="stylesheet" href="./vendors/css/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="./vendors/css/Youtube_lightbox.css">
+    <!-- resources css -->
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/responsive.css">
+</head>
+<body>
+    <!--START HEADER -->
+    <header>
+        <nav class="main-menu">
+             <div class="row header-items">
+                 <div class="logo">
+                     <a href="index.html">
+                         <img src="./resources/img/logo.png" alt="Logo">
+                     </a>
+                 </div>
+                 <div>
+                    <ul class="nav-items">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#service">service</a></li>
+                        <li><a href="#feature">feature</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                    <div class="mobile-menu">
+                      <span onclick="openNav()">&#9776;</span>
+                      <div class="overlay" id="myNav">
+                          <a href="javascript:void(0)"  onclick="closeNav()" class="closebtn">&times;</a>
+                          <div class="overlay-content">
+                              <a onclick="closeNav()" href="index.html">home</a>
+                              <a onclick="closeNav()" href="#about">about</a>
+                              <a onclick="closeNav()" href="#service">service</a>
+                              <a onclick="closeNav()" href="#feature">feature</a>
+                              <a onclick="closeNav()" href="#contact">contact</a>
+                          </div>
+                      </div>
+                  </div>
+                 </div>
+             </div>   
+        </nav>
+    </header>
+    <!--START Banner Section -->
+    <section class="banner">
+        <div class="row banner-items">
+            <div class="banner-content">
+                <span>spa & beauty center</span>
+                <h1>Beauty and success starts here.</h1>
+                <p>Together creeping heaven upon third dominion be upon won't darkness rule behold it created good saw after she'd Our set living.</p>
+                <a href="#" type="button" class="btn banner-btn">reserve now</a>
+                <a data-videourl="https://www.youtube.com/embed/1Q8fG0TtVAY" type="button" class="img-responsive video-btn center-block" alt="Example" title="Example" id="exampleImage"> <i class="fa-solid fa-play"></i> Watch our story</a>
+            </div>
+            <div class="banner-img">
+                <img src="./resources/img/spa.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--START About Section -->
+    <section class="about-section for-sticky-menu-js" id="about">
+        <div class="row">
+            <div class="two-flower">
+                <img src="./resources/img/china-rose.png" alt="" class="flower-1">
+                <img src="./resources/img/jasmine.png" alt="" class="flower-2">
+            </div>
+            <div class="about-content">
+                <img src="./resources/img/butterfly.png" alt="">
+                <span class="tagline">About our spa center</span>
+                <div class="universal-div">
+                    <h2>Come and you will be Inspired!</h2>
+                    <p>It’s the end of summer the sweltering heat   makes human sweat in the night and makes the  plants and trees wilt even in the moonlit    nights. The eastern wind breeze brings an eerie    feeling, that the monsoon clouds are soon  coming, there is a strange silence in the ears,  the sky gets darker and darker</p>
+                </div>
+            </div>
+            <a href="about.html" class="btn about-btn">Read more</a>
+        </div>
+    </section>
+
+    <!--START Service Section -->
+    <section class="service-section" id="service">
+        <div class="service-items">
+            <div class="single-service">
+                <img src="./resources/img/1.jpg" alt="">
+                <div class="service-hover">
+                    <div class="hover-icon">
+                        <img src="./resources/img/1.png" alt="">
+                        <span>Body Treatment</span>
+                    </div>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="./resources/img/2.jpg" alt="">
+                <div class="service-hover">
+                    <div class="hover-icon">
+                        <img src="./resources/img/1.png" alt="">
+                        <span>Body Treatment</span>
+                    </div>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="./resources/img/3.jpg" alt="">
+                <div class="service-hover">
+                    <div class="hover-icon">
+                        <img src="./resources/img/1.png" alt="">
+                        <span>Body Treatment</span>
+                    </div>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="./resources/img/4.jpg" alt="">
+                <div class="service-hover">
+                    <div class="hover-icon">
+                        <img src="./resources/img/1.png" alt="">
+                        <span>Body Treatment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--START Procedures Section -->
+    <section class="procedures" id="feature">
+        <div class="row">
+            <div class="universal-div">
+                <h2>Popular Procedures</h2>
+                <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+            </div>
+           <div class="article-items">
+            <article class="post">
+                <img src="./resources/img/Procedures01.jpg" alt="">
+                <h4><a href="services.html">Massage Therapy</a></h4>
+                <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                <a href="services.html" class="btn btn-round">read more</a>
+              </article>
+              <article class="post">
+                <img src="./resources/img/Procedures02.jpg" alt="">
+                <h4><a href="services.html">Beauty Care</a></h4>
+                <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                <a href="services.html" class="btn btn-round">read more</a>
+              </article>
+              <article class="post">
+                <img src="./resources/img/Procedures03.jpg" alt="">
+                <h4><a href="services.html">Executive Reflexology</a></h4>
+                <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                <a href="services.html" class="btn btn-round">read more</a>
+              </article>
+           </div>
+        </div>
+    </section>
+
+    <!--START Testimonial  Section -->
+    <section class="testimonial">
+        <div class="row">
+            <div class="bxslider">
+                <div class="single-tst">
+                    <img src="./resources/img/quote.png" alt="">
+                    <p>First i beast be fruitful open you tree all Won't can't likeness and you're have whales creature seed to two grass life blessed you meat shall you winged under from their there he That you're one called gather make much red wherein set fourth green bearing fifth replenish given she had.</p>
+    
+                    <div class="client-info">
+                      <img src="./resources/img/client-1.png" alt="" class="thumb">
+                      <p>Jack Marsh, <span>Executive</span></p>
+                    </div>
+                </div>
+                <div class="single-tst">
+                    <img src="./resources/img/quote.png" alt="">
+                    <p>First i beast be fruitful open you tree all Won't can't likeness and you're have whales creature seed to two grass life blessed you meat shall you winged under from their there he That you're one called gather make much red wherein set fourth green bearing fifth replenish given she had.</p>
+    
+                    <div class="client-info">
+                      <img src="./resources/img/client-2.jpg" alt="" class="thumb">
+                      <p>Jack Marsh, <span>Executive</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--START Team  Section -->
+    <section class="team">
+        <div class="row">
+            <div class="universal-div">
+                <h2>Experienced Team</h2>
+                <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+            </div>
+            <div class="team-members">
+                <div class="single-memb">
+                    <img src="./resources/img/team-member01.jpg" alt="">
+                    <div class="memb-details">
+                      <h6>Joseph Austin</h6>
+                      <span>Thai Message</span>
+                      
+                      <div class="memb-social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="single-memb">
+                    <img src="./resources/img/team-member02.jpg" alt="">
+                    <div class="memb-details">
+                      <h6>David Hannan</h6>
+                      <span>Thai Message</span>
+                      
+                      <div class="memb-social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="single-memb">
+                    <img src="./resources/img/team-member03.jpg" alt="">
+                    <div class="memb-details">
+                      <h6>Cheryl Harris</h6>
+                      <span>Thai Message</span>
+                      
+                      <div class="memb-social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+    <!--START Appointment  Section -->
+    <section class="appointment">
+        <div class="appointment-wrap">
+            <figure>
+              <img src="./resources/img/appointment-img.jpg" alt="">
+            </figure>
+
+            <div class="appointment-form">
+              <form action="inc/apoint.php" class="contact-form" name="contactform" method="post" id="apoint-form">
+                <div class="form-field half-width">
+                  <input type="text" placeholder="NAME" name="name" required="" id="name">
+                  <input type="email" placeholder="Email address" name="email" required="" id="email">
+                </div>
+                <div class="form-field half-width">
+                  <div class="select-field">
+                    <select id="service" name="service">
+                      <option value="">Select service</option>
+                      <option value="normal">Normal Service</option>
+                      <option value="vip">VIP Serevice</option>
+                    </select>
+                  </div>
+                  <input type="tel" placeholder="Phone numer" name="number" id="number">
+                </div>
+                <div class="form-field half-width">
+                  <input type="date" placeholder="date" name="date" id="date">
+                  <input type="time" placeholder="time" name="time" id="time">
+                </div>
+                <div class="form-field">
+                  <textarea name="notes" placeholder="Your notes" id="comments"></textarea>
+                </div>
+                <button class="btn btn-round" id="asubmit">Make an Appointment</button>
+              </form>
+            </div>
+    
+        </div>
+    </section>
+    <!--START Blog  Section -->
+    <section class="procedures">
+        <div class="row">
+            <div class="universal-div">
+                <h2>Latest From Blog</h2>
+                <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+            </div>
+           <div class="article-items">
+            <article class="post">
+                <img src="./resources/img/Procedures01.jpg" alt="">
+                <h4><a href="services.html">Massage Therapy</a></h4>
+                <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                <a href="services.html" class="btn btn-round">read more</a>
+              </article>
+              <article class="post">
+                <img src="./resources/img/Procedures02.jpg" alt="">
+                <h4><a href="services.html">Beauty Care</a></h4>
+                <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                <a href="services.html" class="btn btn-round">read more</a>
+              </article>
+              <article class="post">
+                <img src="./resources/img/Procedures03.jpg" alt="">
+                <h4><a href="services.html">Executive Reflexology</a></h4>
+                <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                <a href="services.html" class="btn btn-round">read more</a>
+              </article>
+           </div>
+        </div>
+    </section>
+    <!--START Contact  Section -->
+    <section class="contact" id="contact">
+      <div class="row">
+        <div class="universal-div">
+          <h2>Get In Touch</h2>
+          <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="contact-fild">
+          <div class="contact-info-left">
+            <address>
+              <span><i class="fas fa-map"></i></span>
+              Manikat Khoksa Kushtia <br>
+              Kushtia, Bangladesh
+            </address>
+            <address>
+              <span><i class="fa-solid fa-envelope"></i></span>
+              <a href="mailto:developerfiroz09@gmail.com">developerfiroz09@gmail.com</a>
+              <a href="mailto:developerfiroz09@gmail.com">developerfiroz09@gmail.com</a>
+            </address>
+            <address>
+              <span ><i class="fa-solid fa-tablet-screen-button"></i></span>
+              <a href="tel:+8801765905580">tel:+8801765905580</a>
+              <a href="tel:+8801627001109">tel:+8801627001109</a>
+            </address>
+          </div>
+          <div class="contact-info-right">
+            <form action="#" class="contact-form" name="contactform" method="post" id="contact-form">
+              <input type="text" placeholder="Name" name="name" id="name" required>
+              <input type="text" placeholder="Email Address" name="email" id="email" required>
+              <textarea placeholder="Write Comment" name="comments" id="comments" required></textarea>
+              <button type="submit" class="btn btn-round" id="submit">Submit now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--START Footer  Section -->
+    <footer>
+      <section class="footer">
+        <div class="row">
+          <div class="footer-content">
+            <a href="index.html" class="logo foo-logo">
+              <img src="./resources/img/logo.png" alt="">
+            </a>
+            <nav class="foo-nav">
+              <ul> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">service</a></li>
+                <li><a href="#feature">feature</a></li>
+                <li><a href="#Contact">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="foo-social">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="copyright">© COPYRIGHT 2022 <a href="https://www.facebook.com/developerfiroz" target="_blank">Developer Firoz</a> ALL RIGHTS RESERVED.</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+<!-- Js links -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="./vendors/js/Youtube_lightbox.js"></script>
+  <script src="./vendors/js/jquery.waypoints.min.js"></script>
+  <script src="./vendors/js/jquery.bxslider.min.js"></script>
+<script src="./resources/js/main.js"></script>
+</body>
+</html>
